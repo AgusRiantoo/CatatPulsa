@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Pencatat Transaksi Pulsa</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="judul_operator">Pilih Operator</string>
+    <string-array name="operator">
+        <item>XL</item>
+        <item>Indosat</item>
+        <item>Telkomsel</item>
+        <item>Tri</item>
+        <item>Smartfren</item>
+    </string-array>
+
+    <string name="judul_nominal">Pilih Nominal</string>
+    <string-array name="nominal">
+        <item>5000</item>
+        <item>10000</item>
+        <item>25000</item>
+        <item>50000</item>
+        <item>100000</item>
+    </string-array>
+
+</resources>

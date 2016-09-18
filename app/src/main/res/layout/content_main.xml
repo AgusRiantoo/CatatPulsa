@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ipan.pencatattransaksipulsa.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:padding="8dp"
+            android:background="@color/colorLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saldo saat ini"
+            android:textSize="16sp" />
+
+        <TextView
+            android:padding="8dp"
+            android:text="Rp. 0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:id="@+id/saldo" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="8dp"
+                android:background="@color/colorLight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keuntungan yang sudah didapatkan"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="Rp. 0"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:id="@+id/keuntungan" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/TambahSaldo"
+            android:title="Tambah Saldo" />
+        <item
+            android:id="@+id/TambahTransaksi"
+            android:title="Tambah Transaksi" />
+        <item
+            android:id="@+id/RincianPenjualan" 
+            android:title="Rincian Penjualan" />
+        <item
+            android:id="@+id/DaftarHarga"
+            android:title="Daftar Harga Pulsa" />
+        <item
+            android:id="@+id/UbahHarga"
+            android:title="Ubah Harga Pulsa" />
+        <item
+            android:id="@+id/Bantuan"
+            android:title="Bantuan" />
+        <item
+            android:id="@+id/Tentang"
+            android:title="Tentang" />
+
+    </group>
+
+
+
+</menu>

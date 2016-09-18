@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ipan.pencatattransaksipulsa.RincianPenjualan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableLayout
+        android:id="@+id/table_data"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/id"
+                android:text="No."
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tgl"
+                android:text="Tanggal"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/jenis"
+                android:text="Jenis Pulsa"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/harga"
+                android:text="Harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+</RelativeLayout>
